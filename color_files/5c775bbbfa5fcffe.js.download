@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[4966],{
+
+/***/ 512550:
+function(_,__,__webpack_require__){__webpack_require__.n_x=__webpack_require__.n;const __web_req__=__webpack_require__;__web_req__(682630);__web_req__(486185);globalThis._456c437108d2d2713799e19380be528d=globalThis._456c437108d2d2713799e19380be528d||{};(function(__c){__webpack_require__(296713);var iJc,jJc;iJc=__webpack_require__(978109);jJc=iJc.Component;__c.kJc=iJc.useCallback;__c.lJc=iJc.useEffect;__c.mJc=iJc.useRef;var nJc,oJc,qJc;nJc=__webpack_require__(976962);oJc=nJc.EW;__c.pJc=nJc.h5;qJc=nJc.mJ;__c.rJc=nJc.sH;__c.sJc=nJc.XI;__c.tJc=__webpack_require__(294462);var uJc=__webpack_require__(797090)._;var vJc=__webpack_require__(181615)._;__c.wJc=(a,b,c)=>{if(b==="horizontal"){var d=a.scrollWidth;b=a.clientWidth;a=c?d-b-(0,__c.av)(a,__c.$u(c)):(0,__c.av)(a,__c.$u(c))}else d=a.scrollHeight,b=a.clientHeight,a=a.scrollTop;a=Math.min(Math.max(a,0),d-b);return{Fw:a,gV:b}};var xJc,yJc,zJc,AJc;AJc=class extends uJc{constructor(){super(__c.bv);yJc()}};
+new (xJc=(()=>{var a=zJc=jJc;return class extends a{static I(b){__c.Vb(b,{pPa:__c.rJc.shallow,sM:oJc})}get sM(){return this.props.itemSizes.reduce((b,c,d)=>{b.push(c+b[d]);return b},[0])}componentDidMount(){__c.cc(this,qJc(()=>({positions:this.props.Oy.positions,sM:this.sM}),({positions:b,sM:c})=>{if(b==null)this.pPa=void 0;else{let {Qpa:g=1}=this.props,h=b.gV,k=b.Fw;if(k>c[c.length-1])this.Esc(Math.max(c.length-1-g,0),c.length-1);else if(k+h<0)this.Esc(0,Math.min(g,c.length-1));else{var d=Math.min(k,
+c[c.length-1]-h);b=Math.max(0,c.findIndex(l=>l>d)-1-g);var e=Math.min(c[c.length-1],k+h);c=Math.min(c.length-1,c.findIndex(l=>l>=e)+g);this.Esc(b,c)}}},{fireImmediately:!0,delay:this.props.t$g}))}Esc(b,c){this.pPa==null?this.pPa={QS:b,lT:c}:(this.pPa.QS=b,this.pPa.lT=c)}render(){var b=this.pPa,c=this.sM;return b==null?this.props.children(void 0,c):this.props.children({QS:b.QS,lT:b.lT},c)}constructor(...b){super(...b);this.pPa=(__c.bv.I(this),void 0)}}})(),{c:[__c.bv,yJc]}=vJc(xJc,[],[__c.kc],zJc),
+AJc);
+}).call(globalThis,globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/5c775bbbfa5fcffe.js.map

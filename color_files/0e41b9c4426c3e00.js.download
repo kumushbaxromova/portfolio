@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[71609],{
+
+/***/ 888629:
+function(_,__,__webpack_require__){__webpack_require__.n_x=__webpack_require__.n;const __web_req__=__webpack_require__;__web_req__(682630);__web_req__(510028);globalThis._456c437108d2d2713799e19380be528d=globalThis._456c437108d2d2713799e19380be528d||{};(function(__c){var Vaj;__c.Uaj=function(a){switch(a.type){case "SINGLE_IMAGE":var b=a.Ub[0];break;case "CONTEXTUAL":case "CONTEXTUAL_VIDEO":b=a.ML[0];break;case "VIDEO":a.$v.type==="STATIC_VIDEO_SOURCE"&&(b=a.$v.rG[0]);break;case "DESIGN":b=a;break;case "RESPONSIVE_IMAGE":b=a.T2[0]?.Ub[0];break;case "GALLERY":b=void 0;break;case "DIAGONAL_OVERLAP":b=void 0;break;default:throw new __c.A(a);}return b&&{width:b.width,height:b.height}};
+__c.Waj=function(a){var b=__c.Uaj(a);b||a.type!=="VIDEO"||a.$v.type==="VIMEO_SOURCE"&&a.$v.ODa&&(b=Vaj.get(a.$v.ODa));if(b&&b.height!==0&&b.width!==0)return b.height/b.width};Vaj=new Map([[1,{width:1,height:1}],[2,{width:4,height:3}],[3,{width:5,height:2}],[4,{width:16,height:9}],[5,{width:16,height:10}],[6,{width:20,height:13}]]);
+}).call(globalThis,globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/0e41b9c4426c3e00.js.map

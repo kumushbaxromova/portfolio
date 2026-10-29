@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunk_canva_web=globalThis.webpackChunk_canva_web||[]).push([[57652],{312556:(a,n,e)=>{e.d(n,{of:()=>c});var r=e(264995),b=e(664245);function c(){for(var a=[],n=0;n<arguments.length;n++)a[n]=arguments[n];var e=(0,r.lI)(a);return(0,b.H)(a,e)}}}]);
+//# sourceMappingURL=sourcemaps/03974a3cafdb82a8.vendor.js.map

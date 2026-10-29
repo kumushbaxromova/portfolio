@@ -1,0 +1,13 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[67894],{
+
+/***/ 91698:
+function(_,__,__webpack_require__){__webpack_require__.n_x=__webpack_require__.n;const __web_req__=__webpack_require__;__web_req__(682630);globalThis._456c437108d2d2713799e19380be528d=globalThis._456c437108d2d2713799e19380be528d||{};(function(__c){var g_c=function({sBa:a,Hja:b,Ija:c}){var d=c/14;b-=d*2;c-=d*2;a=c_c(a,b,c,a.length<4?.25:d_c);var {FBe:e,GBe:g}=e_c(b,c,a);return{Fge:f_c(a,e,g),jKc:e,kKc:g}},c_c=function(a,b,c,d){var e=b*c*d;return a.map(g=>{var h=Math.sqrt(e/(g.width/g.height));return{src:g.src,width:e/h,height:h}})},e_c=function(a,b,c){var d=c.reduce((e,g)=>e+g.width,0);c=c.reduce((e,g)=>e+g.height,0);d<b+.1*b&&(b=d-.1*b);c<a+.1*a&&(a=c-.1*a);return{FBe:a,GBe:b}},f_c=function(a,b,c){var d=a.reduce((p,t)=>p+t.width,0),e=a.reduce((p,
+t)=>p+t.height,0),g=d-c,h=e-b,k=d-a[0].width,l=e-a[0].height;return a.map((p,t)=>t===0?{...p,Dkc:0,Ekc:0}:{...p,Dkc:g/(k/p.width),Ekc:h/(l/p.height)})},h_c=function(a){var b=0,c=0;return a.map(d=>{var e=b-d.Dkc;b+=d.width-d.Dkc;var g=c-d.Ekc;c+=d.height-d.Ekc;return{...d,x:e,y:g}})},kx=__webpack_require__(296713).jsx;var i_c=__webpack_require__(978109),j_c=i_c.useMemo,k_c=i_c.useState;var d_c=1/6;var l_c,m_c;
+l_c=({sBa:a,p8c:b=4,Hja:c,Ija:d,Ss:e="aspectRatio",backgroundColor:g="#F8F9F9"})=>{if(a.length===0)throw Error("Minimum 1 frame is required to create a overlap thumbnail");a=a.slice(0,b);e=e==="defaultOrder"?a:a.sort((p,t)=>t.width/t.height-p.width/p.height);var {Fge:h,jKc:k,kKc:l}=g_c({sBa:e,Hja:c,Ija:d});e=h_c(h);return kx("div",{className:"ZyjxmA",style:{backgroundColor:g,height:c,width:d},children:kx("div",{className:"nugFQw",style:{height:k,width:l},children:e.slice().reverse().map(p=>kx("img",
+{className:"HJ45dg",src:p.src,height:p.height,width:p.width,style:{bottom:p.y,left:p.x},alt:""},p.src))})})};
+__c.n_c=a=>{var b=__c.Ae({default:3,Ya:4}),[c,d]=k_c(void 0),[e,g]=k_c(void 0),[h,k]=k_c(!0),l=j_c(()=>__c.Xb(t=>{t?.bounds&&(d(t.bounds.width),g(t.bounds.height),k(!1))},100),[]),p=j_c(()=>t=>{k(!0);l(t)},[l]);return kx(__c.jg,{bounds:!0,onResize:p,children:({sE:t})=>kx(m_c,{aspectRatio:a.aspectRatio,children:kx("div",{ref:t,style:{height:"100%",width:"100%",backgroundColor:a.backgroundColor||"#F8F9F9"},children:kx(__c.Fj,{expand:!0,loading:h,VNd:"fast",content:kx(l_c,{Ija:c||400,Hja:e||300,sBa:a.sBa,
+backgroundColor:a.backgroundColor,Ss:a.Ss,p8c:a.p8c||b}),placeholder:kx(__c.wf,{shape:"rectangle"})})})})})};m_c=({children:a,aspectRatio:b})=>b?kx(__c.uh,{ratio:b,children:a}):a;
+}).call(globalThis,globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/2fef237cab3ebf1d.js.map

@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[32988],{
+
+/***/ 248549:
+function(_,__,__webpack_require__){__webpack_require__.n_x=__webpack_require__.n;const __web_req__=__webpack_require__;__web_req__(682630);__web_req__(396823);__web_req__(433686);globalThis._456c437108d2d2713799e19380be528d=globalThis._456c437108d2d2713799e19380be528d||{};(function(__c){var rk=__c.rk;var fW;fW=__c.fW=__webpack_require__(296713).jsx;var taj=__webpack_require__,uaj=taj(208463),vaj=taj.n_x(uaj)();var waj=__webpack_require__(978109).memo;var xaj={baseUnit:"8px",colorBlue05:"#3D8BFF",colorPurple06:"#8B3DFF",colorYellow03:"#FDBD68",proIcon:"edzEug",eduIcon:"lMjhqg",docsIcon:"oalYtA",dotIcon:"g5gZUg",gold:"nOmjFQ",blue:"FyuE1g",purpleLight:"l4BN5w"};var yaj,zaj,Aaj,Baj,Caj;yaj=()=>fW(__c.Wv,{className:"edzEug",size:"small"});zaj=()=>fW(__c.nM,{size:"small",className:"lMjhqg"});
+Aaj=a=>{switch(a){case 1:return({text:b})=>fW(rk,{tone:"feedbackOverlay",text:b});case 2:return({text:b})=>fW(rk,{tone:"feedbackInfo",text:b});case 3:return({text:b})=>fW(rk,{tone:"feedbackWarn",text:b});case 4:return({text:b})=>fW(rk,{tone:"feedbackOverlay",icon:fW(yaj,{}),text:b});case 5:return({text:b})=>fW(rk,{tone:"neutralSubtle",icon:fW(yaj,{}),text:b});case 6:return({text:b})=>fW(rk,{tone:"feedbackOverlay",icon:fW(zaj,{}),text:b});case 7:return({text:b})=>fW(rk,{tone:"feedbackCritical",text:b});
+default:throw new __c.A(a);}};Baj=waj(function({label:a,Kla:b,compact:c,Xy:d,variant:e}){e=Aaj(e);c=c&&__c.tj();a=fW(e,{text:c?b:a});return d?fW(__c.rd,{placement:"top",label:d,children:a}):a});Caj=a=>fW(Baj,{...a,variant:2});__c.Daj=a=>fW(Baj,{...a,variant:7});__c.Eaj=waj(function({label:a,Xy:b,V2b:c}){c=fW("div",{className:vaj("g5gZUg",xaj[c])});a=fW(rk,{tone:"feedbackOverlay",icon:c,text:a});return b?fW(__c.rd,{placement:"top",label:b,children:a}):a});__c.Faj=a=>{var b=a.CB,c=__c.O("YbuX+A");return fW(Caj,{label:`${b} ${c}`,Kla:a.CB,compact:a.compact,Xy:__c.L("D9wrUQ",[a.contentType])})};
+}).call(globalThis,globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/58df1156197eb548.js.map
